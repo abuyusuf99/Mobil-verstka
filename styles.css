@@ -1,0 +1,140 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+}
+.fullstat{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.fullstat img {
+margin-right: 15px;
+width: 30px;
+height: 30px;
+}
+.image{
+    margin-top: 288px;
+}
+.zagol{
+    box-shadow: 0 5px 5px 5px rgba(172, 172, 180, 0.2);
+    height: 992px;
+    
+    
+}
+main{
+    margin-left: 300px;
+    margin-top: 281px;
+}
+.input input{
+    width: 234px;
+    height: 36px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+.input1 input{
+   margin-top: 24px;
+    width: 232px;
+    height: 36px;
+    border-radius: 5px;
+    border-color: lightgray;
+    width: 480px;
+}
+.input2 input{
+    margin-top: 24px;
+    width: 232px;
+    height: 36px;
+    border-radius: 5px;
+    border-color: lightgray;
+    width: 480px;
+}
+.button button{
+    height: 48px;
+    width: 487px;
+    margin-top: 24px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+
+}
+.reg{
+    margin-top: 24px;
+    color: gray;
+    /* text-align: center; */
+    font-size: 14px;
+    width: 393px;
+    margin-right: 150px;
+}
+.input{
+    margin-top: 40px;
+}
+.zagol1{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.vhod{
+    margin-top: 15px;
+    font-size: 14px;
+    display: none;
+}
+.ogot{
+    display: none;
+}
+@media (max-width: 390px){
+    .zagol{
+        display: none;
+    }
+    .zagol1{
+        display: none;
+    }
+    .registr{
+width: 335px;
+    }
+    .input input{
+    width: 335px;
+    margin-top: 24px;
+    }
+    .input1 input{
+        width: 335px;
+    }
+    .input2 input{
+        width: 335px;
+    }
+    .ogot{
+        display: block;
+    }
+    .button button {
+        width: 345px;
+    }
+    .vhod{
+        display: block;
+        text-align: center;
+    }
+    .reg{
+        text-align: center;
+    }
+    main{
+       
+        margin: 0;
+    }
+    .reg{
+        width: 335px;
+    }
+    .registr{
+       /* margin-left: 15px; */
+    }
+    header{
+    width: 335px;
+    }
+    .input{
+        margin: 0;
+    }
+}
